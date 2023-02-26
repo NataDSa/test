@@ -1,0 +1,22 @@
+@import	'components/header.css';
+@import	'components/page.css'; 
+@import	'components/chat.css';
+@import	'components/footer.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: local('Proxima Nova Regular'), local('Proxima-Nova-Regular'),
+	url('./fonts/ProximaNova-Regular.woff2') format('woff2'),
+	url('./fonts/ProximaNova-Regular.woff') format('woff'),
+	url('./fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.body {
+	font-family: Roboto;
+}
